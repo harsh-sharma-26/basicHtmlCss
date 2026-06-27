@@ -1,0 +1,28 @@
+h1 {
+  color: rgb(103, 153, 239);
+  font-family: sans-serif;
+  text-align: center;
+}
+p {
+  color: rgb(30, 28, 28);
+  font-family: sans-serif;
+  text-align: center;
+}
+p#main_para {
+  /* jo bhi p element with id "main_para" wo sb select honge 
+     p #main_para iska mtlb hota ki p element ke andar koi bhi element with id "main_para" wo select honge
+  */
+  color: rgb(30, 28, 28);
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+a {
+  color: rgb(47, 119, 244);
+  font-family: sans-serif;
+  text-align: center;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
