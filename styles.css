@@ -1,3 +1,7 @@
+html {
+  background-color: black;
+}
+
 h1 {
   color: rgb(103, 153, 239);
   font-family: sans-serif;
@@ -5,7 +9,7 @@ h1 {
   margin: 12px;
 }
 p {
-  color: rgb(30, 28, 28);
+  color: rgb(255, 255, 255);
   font-family: sans-serif;
   text-align: center;
 }
@@ -13,7 +17,7 @@ p#main_para {
   /* jo bhi p element with id "main_para" wo sb select honge 
      p #main_para iska mtlb hota ki p element ke andar koi bhi element with id "main_para" wo select honge
   */
-  color: rgb(30, 28, 28);
+  color: rgb(255, 255, 255);
   font-family: "Tirra", sans-serif;
   text-align: center;
   font-weight: bold;
