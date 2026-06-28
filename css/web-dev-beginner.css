@@ -1,0 +1,50 @@
+body {
+  background: #0a0a0a;
+  color: #e0e0e0;
+  font-family: "Segoe UI", sans-serif;
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+h1 {
+  font-size: 1.8rem;
+  color: #fff;
+  margin-bottom: 6px;
+}
+.subtitle {
+  color: #777;
+  font-size: 0.9rem;
+  margin-bottom: 36px;
+}
+.section-title {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #555;
+  margin: 28px 0 10px;
+}
+.task {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 12px 14px;
+  background: #141414;
+  border: 1px solid #1f1f1f;
+  border-radius: 8px;
+  margin-bottom: 6px;
+  cursor: pointer;
+  transition: border-color 0.15s;
+}
+.task:hover {
+  border-color: #333;
+}
+.name {
+  font-size: 0.88rem;
+  color: #ddd;
+  font-weight: 500;
+}
+.desc {
+  font-size: 0.76rem;
+  color: #666;
+  margin-top: 2px;
+}
