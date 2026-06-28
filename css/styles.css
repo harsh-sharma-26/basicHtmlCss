@@ -42,3 +42,10 @@ div#main_heading_container {
 img#fire_emoji_img {
   width: 50px;
 }
+div#main_container {
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
