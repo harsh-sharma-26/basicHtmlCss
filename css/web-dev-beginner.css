@@ -7,20 +7,20 @@ body {
   padding: 0 20px;
 }
 h1 {
-  font-size: 1.8rem;
+  font-size: 2.8rem;
   color: #fff;
   margin-bottom: 6px;
 }
 .subtitle {
   color: #777;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   margin-bottom: 36px;
 }
 .section-title {
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   text-transform: uppercase;
   letter-spacing: 0.12em;
-  color: #555;
+  color: #6f6f6f;
   margin: 28px 0 10px;
 }
 .task {
@@ -39,12 +39,19 @@ h1 {
   border-color: #333;
 }
 .name {
-  font-size: 0.88rem;
+  font-size: 1.1rem;
   color: #ddd;
   font-weight: 500;
 }
 .desc {
-  font-size: 0.76rem;
+  font-size: 0.9rem;
   color: #666;
   margin-top: 2px;
+}
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  accent-color: #4caf50; /* ye wo color 
+  dene ke liye use hota hai jb kisi checkbox ko select kr 
+  lete hai click krke fir jo color hota hai wo hai ye */
 }
